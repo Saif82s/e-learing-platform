@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="estyles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>LearnOnline</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Expand Your Knowledge with Our Courses</h2>
+            <p>Join millions of learners around the world.</p>
+            <a href="#courses" class="btn">Browse Courses</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <!-- Course Item -->
+            <div class="course-item">
+                <img src="course1.jpg" alt="Course 1">
+                <h3>Course Title 1</h3>
+                <p>Instructor: Jane Doe</p>
+                <a href="#course-details" class="btn">View Details</a>
+            </div>
+            <!-- More course items here -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>LearnOnline is a leading platform for online education, providing thousands of courses across various fields.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login-section">
+        <h2>Login to Your Account</h2>
+        <form class="login-form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email-login" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password-login" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p>Don't have an account? <a href="#signup">Sign Up</a></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 LearnOnline. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

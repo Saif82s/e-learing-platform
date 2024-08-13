@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-image: url('elearning.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.courses-section, .about-section, .contact-section, .login-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-item {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.course-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-section, .contact-section, .login-section {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form, .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form .form-group, .login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label, .login-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input, .contact-form .form-group textarea,
+.login-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
